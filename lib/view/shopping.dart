@@ -30,7 +30,7 @@ class _ShoppingState extends State<Shopping> {
                   itemBuilder: (BuildContext context, int index) {
                     return Card(
                       shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(22)),
+                          borderRadius: BorderRadius.circular(23)),
                       child: Column(
                         children: [
                           Text(controller.product[index].title),
