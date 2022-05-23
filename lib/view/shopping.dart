@@ -28,6 +28,7 @@ class _ShoppingState extends State<Shopping> {
           itemBuilder: (BuildContext context, int index) {
             return GetX<MyController>(builder: (controller) {
               return Card(
+                color: Colors.red,
                 shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(23)),
                 child: Column(
