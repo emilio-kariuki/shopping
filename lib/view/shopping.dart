@@ -34,10 +34,10 @@ class _ShoppingState extends State<Shopping> {
                   children: [
                     Text(
                       controller.product[index].title,
-                      style: TextStyle(fontSize: 9),
+                      style: TextStyle(fontSize: 5),
                     ),
                     Text(controller.product[index].description,
-                        style: TextStyle(fontSize: 8)),
+                        style: TextStyle(fontSize: 5)),
                     Image.network(
                       controller.product[index].image,
                       width: 50,
