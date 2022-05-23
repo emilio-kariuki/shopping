@@ -38,7 +38,7 @@ class _ShoppingState extends State<Shopping> {
                       style: TextStyle(fontSize: 5),
                     ),
                     Text(controller.product[index].description,
-                        style: TextStyle(fontSize: 5)),
+                        style: TextStyle(fontSize: 8)),
                     Image.network(
                       controller.product[index].image,
                       width: 50,
